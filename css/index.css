@@ -129,12 +129,12 @@ html {
 }
 
 #page1 span:nth-child(3) {
-    -webkit-animation: flip 5s linear .10s both;
-    animation: flip 5s linear .10s both;
+    -webkit-animation: flip 5s linear .1s forwards;
+    animation: flip 5s linear .1s forwards;
 }
 .Tx {
-    -webkit-animation: fadeInUp  1s linear .1s both;
-    animation: fadeInUp 1s linear .1s infinite both;
+    -webkit-animation: fadeInUp  1s linear .1s infinite forwards;
+    animation: fadeInUp 1s linear .1s infinite forwards;
     z-index: 1;
 }
 @-webkit-keyframes bounceInLeft {
