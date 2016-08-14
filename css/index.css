@@ -645,25 +645,25 @@ width: 3.58rem;
 .slide3 span{ font-size:1.4em;
 color:black;}
 #page3 span:nth-child(2){
-    -webkit-animation: bounceInRight 1s linear .1s both;
-    animation: fadeInUp 10s linear .1s  both;
+    -webkit-animation: fadeInUp 10s linear .1s forwards;
+    animation: fadeInUp 10s linear .1s  forwards;
    }
 #page3 span:nth-child(3){
 
-    -webkit-animation: flip1 3s linear .10s both;
-    animation: flip1 3s linear .10s both;
+    -webkit-animation: flip1 3s linear .10s forwards;
+    animation: flip1 3s linear .10s forwards;
 
 }
 #page3 span:nth-child(4){
 
-    -webkit-animation: flip1 3s linear 5s both;
-    animation: flip1 3s linear 5s both;
+    -webkit-animation: flip1 3s linear 5s forwards;
+    animation: flip1 3s linear 5s forwards;
 
 }
 #page3 span:nth-child(5){
 
-    -webkit-animation: flip1 3s linear 8s both;
-    animation: flip1 3s linear 8s both;
+    -webkit-animation: flip1 3s linear 8s forwards;
+    animation: flip1 3s linear 8s forwards;
 
 }
 @-webkit-keyframes flip1 {
