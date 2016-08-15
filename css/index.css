@@ -119,7 +119,7 @@ html {
 }
 
 #page1 span:nth-child(1) {
-    -webkit-animation: bounceInRight 1s linear .3s both;
+    -webkit-animation: bounceInLeft 1s linear .3s both;
     animation: bounceInLeft 1s linear .3s both;
 }
 
@@ -308,7 +308,7 @@ html {
         -webkit-transform: perspective(400px);
         transform: perspective(400px);
         -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;font-size: .8rem;color: gold;
+        animation-timing-function: ease-in;font-size: .8rem;color: gold;opacity: 1;
     }
 }
 @keyframes flip {
